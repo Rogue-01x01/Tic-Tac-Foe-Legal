@@ -14,7 +14,9 @@
   }
   @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #121212; } a { color: #7cb3ff; } }
   .logo { display: block; width: 100%; max-width: 440px; height: auto; margin: 0 auto 1.5rem; }
-  h1 { text-align: center; font-size: 1.15rem; font-weight: 600; margin: 0 0 2rem; color: #888; letter-spacing: .02em; }
+  h1 { text-align: center; font-size: 1.15rem; font-weight: 600; margin: 0 0 1.75rem; color: #888; letter-spacing: .02em; }
+  .shots { display: flex; gap: .6rem; justify-content: center; margin: 0 0 2rem; }
+  .shots img { width: 31%; max-width: 190px; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,.25); }
   h2 { font-size: 1.05rem; margin: 2rem 0 .5rem; }
   li { margin: .4rem 0; }
   .links { padding-left: 1.25rem; }
@@ -27,6 +29,12 @@
 
 <img class="logo" src="logo.png" alt="Tic-Tac-Foe logo">
 <h1>A tic-tac-toe variant with a slot-machine twist</h1>
+
+<div class="shots">
+  <img src="screenshot-1.jpg" alt="Tic-Tac-Foe title screen">
+  <img src="screenshot-2.jpg" alt="Tic-Tac-Foe gameplay — spinning a column against the computer">
+  <img src="screenshot-3.jpg" alt="Tic-Tac-Foe settings and emoji customization">
+</div>
 
 <p>
   Instead of placing your mark directly, each turn you spin a column like a
